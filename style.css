@@ -5,7 +5,8 @@ h1 {
     margin: 0;
 }
 
-button {
+/* https://getcssscan.com/css-buttons-examples */
+button { 
     appearance: button;
     background-color: #000;
     background-image: none;
