@@ -1,9 +1,9 @@
 let titleHello = document.getElementById("titleHello");
 let helloDots = 0;
 
-setInterval(function() {
+setInterval(function () {
     helloDots += 1;
-    if (helloDots>3) {
+    if (helloDots > 3) {
         helloDots = 0;
     }
     titleHello.innerText = "HELLO";
@@ -17,7 +17,6 @@ document.getElementById("btnSignUp").addEventListener("click", () => {
     console.log("Sign Up clicked");
     document.getElementById("loginPage").style.display = "none";
     document.getElementById("signUpPage").style.display = "flex";
-
 });
 
 //When login button is clicked hide the sign up page and show the welcome page
